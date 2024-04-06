@@ -1,0 +1,2 @@
+--Esto lo dejo aca por si necesitase crear la base de datos via compose,
+--Por ahora con el framework Spring Boot no es necesario

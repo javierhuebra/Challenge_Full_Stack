@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  db:
+    image: postgres:15.2
+    container_name: challenge_ensolvers
+    restart: always
+    environment:
+      - POSTGRES_DB=challenge_ensolvers
+      - POSTGRES_USER=root
+      - POSTGRES_PASSWORD=root
+    ports:
+      - "5432:5432"
